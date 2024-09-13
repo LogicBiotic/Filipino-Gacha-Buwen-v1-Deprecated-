@@ -1,0 +1,63 @@
+discord bot that allows you to roll for filipino characters in gacha and use them to fight other characters
+
+Commands:
+/roll - allows to roll for a unit (has cooldown)
+/shop - allows to buy upgrades (better roll chances, talismans with slight rng/stat boosts, etc)
+/find - searches for random enemy to find (has cooldown)
+/fight - allows fighting a found enemy; fighting commences based on atk and def, and continuously computed and logged until a winner is found
+
+-----
+Types:
+- Humans (1.1x less damage to Monsters; 1.1x more damage to Deities)
+- Monsters (1.1x less damage to Deities; 1.1x more damage to Humans)
+- Deities (1.1x less damage to Humans; 1.1x more damage to Monsters)
+
+Elements:
+- Water (1.1x more damage to Fire; 1.1x less damage to Earth)
+- Fire (1.1x more damage to Earth; 1.1x less damage to Water)
+- Earth (1.1x more damage to Water; 1.1x less damage to Fire)
+- Shine (1.1x more damage to and from Shadow)
+- Shadow (1.1x more damage to and from Shine)
+-----
+Ranks:
+
+S-Class (1.5%)
+Bathala
+Maria Makiling
+Bakunawa
+Minokawa
+
+A-Class (8.5%)
+Lam-ang (Ang Badass na Buhay ni Lam-ang)
+Maria Cristina
+Maria Cacao
+Bernardo Carpio
+Hotdog Prince (Hotdog Prince)
+Lam-ang (Biag ni Lam-ang)
+Volta (Volta)
+Darna (Darna)
+Lastikman (Lastikman)
+Gagamboy (Gagamboy)
+Teniente Gimo
+Super Inggo (Super Inggo)
+
+B-Class (20%)
+Jose Rizal
+Riel (Sagala)
+Pedro Penduko (Pedro Penduko)
+Agalon Hayopan
+Flavio (Panday)
+
+C-Class (70%)
+Juan Tamad
+Kapitan Tiyago (Noli)
+Constantino (Sagala)
+Noel (CFCCC)
+Sandra (CFCCC)
+Koontz (CFCCC)
+Charlie (CFCCC)
+Santelmo
+Allawaig
+Araria
+Crispin
+Young Basilio
