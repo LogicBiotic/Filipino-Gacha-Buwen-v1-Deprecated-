@@ -1,10 +1,17 @@
-discord bot that allows you to roll for filipino characters in gacha and use them to fight other characters
+Buwen is an auto-battler discord bot that allows you to roll for a variety of Filipino characters in gacha and use them to fight other characters.
 
+"Buwen" is derived from the filipino word buwenas which means LUCK. This game's main mechanic will rely on luck in order to win against enemies or other players. Just a nifty little passion project I'm doing to test my development skills.
+
+Involved languages: Python
+
+-----
 Commands:
-/roll - allows to roll for a unit (has cooldown)
-/shop - allows to buy upgrades (better roll chances, talismans with slight rng/stat boosts, etc)
-/find - searches for random enemy to find (has cooldown)
+/roll - allows to roll for a unit (has a cooldown of 3 minutes, can save up to 10 rolls at a time)
+/shop - allows to buy upgrades (better roll chances, talismans with slight rng/stat boosts)
+/find - searches for random enemy to find (has a cooldown of 1 minute)
 /fight - allows fighting a found enemy; fighting commences based on atk and def, and continuously computed and logged until a winner is found
+/tokens - shows available tokens
+/profile - shows completion status, fighting exp, and display lineup
 
 -----
 Types:
@@ -18,46 +25,11 @@ Elements:
 - Earth (1.1x more damage to Water; 1.1x less damage to Fire)
 - Shine (1.1x more damage to and from Shadow)
 - Shadow (1.1x more damage to and from Shine)
+
+*Do note that some of these Types and Elements can be nullified by certain special abilities of specific characters
+
 -----
-Ranks:
+Shop Upgrades:
+/buy x - command used to indicate which item from the shop must be bought
 
-S-Class (1.5%)
-Bathala
-Maria Makiling
-Bakunawa
-Minokawa
-
-A-Class (8.5%)
-Lam-ang (Ang Badass na Buhay ni Lam-ang)
-Maria Cristina
-Maria Cacao
-Bernardo Carpio
-Hotdog Prince (Hotdog Prince)
-Lam-ang (Biag ni Lam-ang)
-Volta (Volta)
-Darna (Darna)
-Lastikman (Lastikman)
-Gagamboy (Gagamboy)
-Teniente Gimo
-Super Inggo (Super Inggo)
-
-B-Class (20%)
-Jose Rizal
-Riel (Sagala)
-Pedro Penduko (Pedro Penduko)
-Agalon Hayopan
-Flavio (Panday)
-
-C-Class (70%)
-Juan Tamad
-Kapitan Tiyago (Noli)
-Constantino (Sagala)
-Noel (CFCCC)
-Sandra (CFCCC)
-Koontz (CFCCC)
-Charlie (CFCCC)
-Santelmo
-Allawaig
-Araria
-Crispin
-Young Basilio
+- 
